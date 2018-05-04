@@ -32,7 +32,7 @@ int main(void)
 			d[i] = p[i].d(p[i].x,p[i].y);
 		}
 		
-		for (size_t j = 0; j < length - 1; j++)      // sorting from the smallest
+		for (size_t j = 0; j < length - 1; j++)      //  sorting from the smallest 
 			for (size_t i = 0; i < length - 1; i++)
 				if (d[i] > d[i + 1]) swap(d[i], d[i + 1]);
 
